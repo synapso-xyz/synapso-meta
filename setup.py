@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="synapso",
-    version="0.3.0",
+    version="0.3.1",
     description="Meta-package that installs synapso-core and synapso-cli.",
     author="Ganesh Palanikumar",
     author_email="me@ganeshpalanikumar.dev",
