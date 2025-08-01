@@ -14,7 +14,12 @@ setup(
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: Apache License 2.0",
+        "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent"
     ],
+    extras_require=[
+        "core": ["synapso-core==0.1.5"],
+        "cli": ["synapso-cli==0.2.0"],
+        "all": ["synapso-cli==0.2.0", "synapso-core==0.1.5"]
+    ]
 )
