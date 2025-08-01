@@ -6,7 +6,7 @@ setup(
     description="Meta-package that installs synapso-core and synapso-cli.",
     author="Ganesh Palanikumar",
     author_email="me@ganeshpalanikumar.dev",
-    license="Apache License 2.0",
+    license="Apache-2.0",
     packages=find_packages(),
     install_requires=[
         "synapso-core==0.1.5",
@@ -17,9 +17,4 @@ setup(
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent"
     ],
-    extras_require={
-        "core": ["synapso-core==0.1.5"],
-        "cli": ["synapso-cli==0.2.0"],
-        "all": ["synapso-cli==0.2.0", "synapso-core==0.1.5"]
-    }
 )
